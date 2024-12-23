@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" Parallel = "tests" >
+<groups>
+	<run>
+		<include name="Purchase"/>
+	</run>
+</groups>
+
+  <test thread-count="5" name="SubmitTest">
+    <classes>
+      <class name="rahulshettyacademy.Tests.SubmitTest"/>
+    </classes>
+  </test> 
+  
+   <test thread-count="5" name="ErrorValidation">
+    <classes>
+      <class name="rahulshettyacademy.Tests.ErrorValidation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
